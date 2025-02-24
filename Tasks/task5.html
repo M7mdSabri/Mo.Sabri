@@ -16,7 +16,7 @@
     <!-- MDB Bootstrap CSS -->
     <link rel="stylesheet" href="/css/mdb.min.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/task5.css">
 </head>
 
 <body>
@@ -119,22 +119,50 @@
     <!-- END Navbar -->
 
     <!-- Start JS Task -->
-    <div class="container">
-        <div class="row m-5">
-            <div class="col-md-12 mt-5">
-                <div class="card m-auto;">
-                    <div class="bg-image hover-overlay m-auto pt-5" data-mdb-ripple-init data-mdb-ripple-color="light">
-                        <img src="/img/lamp off.gif" id="lampimg" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
+    <div class="div">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 m-auto">
+                    <h1 id="first" class="text-center mt-5 pt-5">
+                        💥 DOM - Scroll to Change NAVColor 💣
+                    </h1>
+                    <br>
+                    <br>
+                    <h3 >
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt sed tempore sint cumque,
+                        consequuntur magni odio voluptatum numquam fugiat quasi dolor animi, laborum tempora? Non
+                        blanditiis consectetur omnis vel tempora expedita itaque tenetur, vero corporis voluptates
+                        asperiores iste reiciendis nulla excepturi ratione sequi consequuntur sint sunt. Quas atque sed
+                        voluptatibus eveniet, suscipit, aliquam cum beatae magni rem consequatur maiores quam alias
+                        accusantium. Recusandae odit perspiciatis sed numquam voluptates? Recusandae laborum enim
+                        architecto non ipsa aperiam, perferendis rerum id aliquid earum reprehenderit similique ut omnis
+                        cum. Ex enim, laboriosam maiores temporibus et iure illum error culpa laudantium unde fugiat
+                        quod, rem reiciendis deleniti, fuga sint! Minima libero maxime, harum ducimus inventore totam
+                        voluptatem est delectus? Numquam quis vero consectetur perspiciatis molestias hic alias, non
+                        libero ad. Accusamus consequuntur, architecto aliquam magnam nisi odit laborum! Doloremque,
+                        necessitatibus. Saepe eligendi molestias nihil accusantium debitis natus perspiciatis
+                        consequuntur voluptatum sapiente cumque exercitationem, dolorum ea omnis quam aliquam quos nam
+                        officiis eum facilis esse. Impedit, quod accusamus! Ex commodi iste iusto rem, illo neque animi
+                        assumenda quia omnis, optio deleniti deserunt doloribus ut alias, vel quidem placeat quos?
+                        Consequuntur dolor repudiandae vero fuga atque aliquam itaque, voluptatum quidem beatae amet
+                        
+                    </h3>
+                    <hr class="mt-5">
+                    <hr>
+                    <h1 id="sec" class="text-center mt-5 pt-5">
+                        💥 DOM - Set-Interval Test 💣 
+                    </h1>
+                    <div class="text-center mt-5 pt-5">
+                        <h2 id="time"></h2>
+                        <br>
+                        <br>
+                        <button onclick="mouse=setInterval(myTimer,1000)">Start Time</button>
+                        <button onclick="clearInterval(mouse)">Stop Time</button>
+                        <br>
+                        <br>
                     </div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title font-weight-bolder">🌞 لمبتك منورة يا معلم 💡</h5>
-                        <p class="card-text font-weight-bold">المنصورة لتوليد الكهرباء</p>
-                        <a onclick="document.getElementById('lampimg').src = '/img/lamp on.gif'" class="btn btn-success" data-mdb-ripple-init>Turn ON</a>
-                        <a onclick="document.getElementById('lampimg').src = '/img/lamp off.gif' " class="btn btn-danger" data-mdb-ripple-init>Turn OFF</a>
-                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -142,46 +170,35 @@
     <!-- END JS Task -->
 
     <!-- Start Footer -->
-    <footer class="text-center bg-body-tertiary">
-        <!-- Grid container -->
+    <footer class="text-center bg-body-tertiary mt-auto">
         <div class="container pt-4">
-            <!-- Section: Social media -->
             <section class="mb-4">
-                <!-- Facebook -->
-                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
-
-                <!-- Google -->
-                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
-
-                <!-- Instagram -->
-                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
-                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
-                <!-- Github -->
-                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
             </section>
-            <!-- Section: Social media -->
         </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        <div class="text-center p-3 bg-light">
             © 2025 Copyright:
             <a class="text-body" href="https://wa.me/+201062552516/">.ıl♏7MĐ Š.Λ.β.Я.Ψ ™</a>
         </div>
-        <!-- Copyright -->
     </footer>
-    <!-- END Footer -->
+
 
 
 
@@ -199,7 +216,7 @@
     <!-- MDB Bootstrap -->
     <script src="/js/mdb.min.js"></script>
     <!-- JavaScript -->
-    <script src="/js/task1.js"></script>
+    <script src="/js/task5.js"></script>
 </body>
 
 </html>
